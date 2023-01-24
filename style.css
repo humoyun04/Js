@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.main {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.light_off {
+    display: flex;
+    width: 200px;
+}
+
+.light_on {
+    display: flex;
+}
+
+button {
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: lightblue;
+    border: 1px solid lightblue;
+}
+
+
+
